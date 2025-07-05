@@ -1,17 +1,18 @@
 {
   "configurations": [
     {
-      "name": "windows-gcc-x86",
+      "name": "MSYS2-UCRT64",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "C:/msys64/ucrt64/include",
+        "C:/msys64/ucrt64/include/c++/15.1.0",
+        "C:/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32"
       ],
-      "compilerPath": "C:/MinGW/bin/gcc.exe",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "windows-gcc-x86",
-      "compilerArgs": [
-        ""
-      ]
+      "defines": [],
+      "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+      "cStandard": "c23",
+      "cppStandard": "c++23",
+      "intelliSenseMode": "windows-gcc-x64"
     }
   ],
   "version": 4
