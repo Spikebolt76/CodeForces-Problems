@@ -5,3 +5,14 @@ using namespace std;
 
 ios::sync_with_stdio(false);
 cin.tie(nullptr);
+
+===================================
+
+input 2D vector : 
+
+for (auto &row : cases)
+        for (int &x : row)
+            cin >> x;
+
+======================================
+
